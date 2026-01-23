@@ -1,0 +1,89 @@
+/*
+Given an array nums, you can perform the following operation any number of times:
+Select the adjacent pair with the minimum sum in nums. If multiple such pairs exist, choose the leftmost one.
+Replace the pair with their sum.
+Return the minimum number of operations needed to make the array non-decreasing.
+An array is said to be non-decreasing if each element is greater than or equal to its previous element (if it exists).
+
+Example 1:
+Input: nums = [5,2,3,1]
+Output: 2
+Explanation:
+The pair (3,1) has the minimum sum of 4. After replacement, nums = [5,2,4].
+The pair (2,4) has the minimum sum of 6. After replacement, nums = [5,6].
+The array nums became non-decreasing in two operations.
+
+Example 2:
+Input: nums = [1,2,2]
+Output: 0
+Explanation:
+The array nums is already sorted.
+
+Constraints:
+1 <= nums.length <= 105
+-109 <= nums[i] <= 109
+*/
+
+class Solution {
+public:
+    int minimumPairRemoval(vector<int>& nums) {
+        int n = nums.size();
+        if (n <= 1) return 0;
+
+        vector<long long> val(nums.begin(), nums.end());
+        vector<int> prev(n), next(n);
+        vector<bool> alive(n, true);
+
+        for (int i = 0; i < n; i++) {
+            prev[i] = i - 1;
+            next[i] = (i + 1 < n ? i + 1 : -1);
+        }
+
+        auto inv = [&](int a, int b) {
+            return a != -1 && b != -1 && val[b] < val[a];
+        };
+
+        int inversions = 0;
+        for (int i = 1; i < n; i++)
+            inversions += inv(i - 1, i);
+
+        priority_queue<
+            pair<long long, int>,
+            vector<pair<long long, int>>,
+            greater<>
+        > pq;
+
+        for (int i = 0; i + 1 < n; i++)
+            pq.push({val[i] + val[i + 1], i});
+
+        int ops = 0;
+
+        while (inversions > 0) {
+            auto [s, i] = pq.top(); pq.pop();
+            if (!alive[i] || next[i] == -1) continue;
+            int j = next[i];
+            if (!alive[j] || val[i] + val[j] != s) continue;
+
+            int pi = prev[i], nj = next[j];
+
+            inversions -= inv(pi, i);
+            inversions -= inv(i, j);
+            inversions -= inv(j, nj);
+
+            val[i] += val[j];
+            alive[j] = false;
+            next[i] = nj;
+            if (nj != -1) prev[nj] = i;
+
+            inversions += inv(pi, i);
+            inversions += inv(i, nj);
+
+            if (pi != -1) pq.push({val[pi] + val[i], pi});
+            if (nj != -1) pq.push({val[i] + val[nj], i});
+
+            ops++;
+        }
+
+        return ops;
+    }
+};
