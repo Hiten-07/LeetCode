@@ -1,0 +1,41 @@
+/*
+Given a binary tree, determine if it is height-balanced.
+
+Example 1:
+Input: root = [3,9,20,null,null,15,7]
+Output: true
+
+Example 2:
+Input: root = [1,2,2,3,3,null,null,4,4]
+Output: false
+
+Example 3:
+Input: root = []
+Output: true
+
+Constraints:
+The number of nodes in the tree is in the range [0, 5000].
+-104 <= Node.val <= 104
+*/
+
+
+class Solution {
+public:
+    int checkHeight(TreeNode* root) {
+        if (!root) return 0; // base case: empty tree has height 0
+        
+        int leftHeight = checkHeight(root->left);
+        if (leftHeight == -1) return -1; // left subtree not balanced
+        
+        int rightHeight = checkHeight(root->right);
+        if (rightHeight == -1) return -1; // right subtree not balanced
+        
+        if (abs(leftHeight - rightHeight) > 1) return -1; // current node not balanced
+        
+        return 1 + max(leftHeight, rightHeight); // return height if balanced
+    }
+    
+    bool isBalanced(TreeNode* root) {
+        return checkHeight(root) != -1;
+    }
+};
