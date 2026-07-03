@@ -1,0 +1,880 @@
+Step 1: Understand the Question
+
+The input is an array of characters.
+
+Example:
+
+chars = ['a','a','b','b','c','c','c']
+
+Notice this is not a string.
+
+It is a character array.
+
+Index:
+
+Index	0	1	2	3	4	5	6
+
+Value	a	a	b	b	c	c	c
+
+Your task is to compress this array in-place.
+
+Compression Rule
+
+If a character appears
+
+once → keep only the character
+
+more than once → write the character followed by its count
+
+Example
+
+aa
+
+becomes
+
+a2
+
+Another example
+
+bbb
+
+becomes
+
+b3
+
+Another
+
+cccccccccccc
+
+(12 c's)
+
+becomes
+
+c12
+
+Notice
+
+The digits are stored separately.
+
+c
+
+1
+
+2
+
+not
+
+12
+
+Example 1
+
+Input
+
+[a,a,b,b,c,c,c]
+
+Output array
+
+[a,2,b,2,c,3]
+
+Return
+
+6
+
+because only the first six characters are valid.
+
+Example 2
+
+[a]
+
+Output
+
+[a]
+
+Return
+
+1
+
+Example 3
+
+[a,b,b,b,b,b,b,b,b,b,b,b,b]
+
+Compression
+
+a
+
+b
+
+12
+
+Array
+
+[a,b,1,2]
+
+Return
+
+4
+------------------------------------------------
+
+Step 2: Think Like a Human
+
+Suppose you see
+
+a a a a b b c
+
+What do you naturally do?
+
+Start reading.
+
+a
+
+How many times?
+
+4
+
+Write
+
+a4
+
+Move ahead.
+
+Now
+
+b
+
+Count
+
+2
+
+Write
+
+b2
+
+Move ahead.
+
+Now
+
+c
+
+Count
+
+1
+
+Write
+
+c
+
+Done.
+
+Notice something important.
+
+We are doing two different jobs.
+
+Reading the original array.
+
+Writing the compressed result.
+
+If we use one pointer for both, we'll overwrite data we haven't read yet.
+
+So we use two pointers.
+
+-----------------------------------------------------------------------
+
+Step 3: The Main Idea
+
+We need:
+
+Read Pointer
+
+Moves through the original array.
+
+read
+
+Write Pointer
+
+Writes compressed characters.
+
+write
+
+Example
+
+Original
+
+a a a b b c
+^
+read
+^
+write
+
+Read finds a group.
+
+Write stores the result.
+
+Then both move independently.
+
+---------------------------------------------------------------------
+
+Line 1
+
+int write = 0;
+
+What does it do?
+
+The write pointer tells us where to write the compressed result.
+
+Initially
+
+write = 0
+
+because we start writing from the beginning of the array.
+
+Imagine
+
+Index
+0 1 2 3 4 5
+a a b b c c
+^
+write
+
+Line 2
+
+int read = 0;
+
+This pointer reads the original array.
+
+Initially
+
+read = 0
+
+because we begin from the first character.
+Now
+
+read = 0
+
+write = 0
+
+Both start together.
+Later they'll move differently.
+
+Outer While Loop
+
+while (read < chars.size())
+
+What is the condition?
+Continue as long as read has not reached the end of the array.
+
+Suppose
+
+chars.size() = 7
+
+Indexes
+
+0 1 2 3 4 5 6
+
+The loop runs while
+
+read < 7
+
+So it runs for
+0
+1
+2
+3
+4
+5
+6
+
+When
+
+read = 7
+
+condition becomes
+
+7 < 7
+
+false
+
+The loop stops.
+
+Why use read < chars.size()?
+Because read is the pointer that scans the input. Once it reaches the array size, there are no characters left to process.
+
+Current Character
+
+char currentChar = chars[read];
+
+Suppose
+
+read = 0
+
+Array
+
+a a a b c
+^
+
+Then
+
+currentChar = 'a'
+
+We remember this value because read is about to move forward.
+
+Count
+
+int count = 0;
+
+Every new group starts with a fresh count.
+
+For
+
+aaa
+
+we want
+
+count = 3
+
+For
+
+bb
+
+we reset back to
+
+count = 0
+
+and count again.
+
+Inner While Loop
+while (read < chars.size() &&
+       chars[read] == currentChar)
+
+This is the heart of the algorithm.
+
+It continues only while both conditions are true:
+
+Condition 1
+read < chars.size()
+
+This prevents reading past the end of the array.
+
+Condition 2
+chars[read] == currentChar
+
+This checks if we're still in the same group.
+
+Example
+
+a a a b b c
+
+read = 0
+currentChar = a
+
+Iteration 1
+
+chars[0] == a
+
+Yes
+
+Execute body.
+
+read++
+count++
+
+Now
+
+read = 1
+
+count = 1
+
+Iteration 2
+
+chars[1] == a
+
+Yes
+
+Again
+
+read = 2
+
+count = 2
+
+Iteration 3
+
+chars[2] == a
+
+Yes
+
+Again
+
+read = 3
+
+count = 3
+
+Iteration 4
+
+Now
+
+chars[3]
+
+=
+
+b
+
+Is
+
+b == a ?
+
+No.
+
+The second condition becomes false, so the loop stops.
+
+Notice that read is now pointing to the first character of the next group (b). We don't move it back; the next iteration of the outer loop starts processing from there.
+
+Writing the Character
+chars[write++] = currentChar;
+
+Suppose
+
+write = 0
+
+currentChar = a
+
+We do
+
+chars[0] = a
+
+Then write++ increases write.
+
+This is post-increment.
+
+It works like this:
+
+Use write
+
+↓
+
+Increase write
+
+So
+
+Before
+
+write = 0
+
+Write at index 0.
+
+After the assignment
+
+write = 1
+
+Now the next compressed character will be written at index 1.
+
+Count Check
+if (count > 1)
+
+Why?
+
+Because
+
+a
+
+should remain
+
+a
+
+Not
+
+a1
+
+Only repeated characters need a count.
+
+Convert Count
+string cnt = to_string(count);
+
+Suppose
+
+count = 12
+
+Now
+
+cnt
+
+=
+
+"12"
+
+This gives us a string so we can write each digit separately.
+
+Range-Based For Loop
+for (char c : cnt)
+
+Suppose
+
+cnt = "12"
+
+The loop works like this:
+
+First iteration
+
+c = '1'
+
+Second iteration
+
+c = '2'
+
+Then the loop ends because there are no more characters in the string.
+
+It automatically starts from the first character and continues until the last character.
+
+Inside the loop
+
+chars[write++] = c;
+
+First iteration
+
+write = 2
+
+chars[2] = '1'
+
+After writing
+
+write = 3
+
+Second iteration
+
+chars[3] = '2'
+
+After writing
+
+write = 4
+
+Now the count "12" has been stored as two separate characters.
+
+Return
+return write;
+
+Suppose the compressed array is
+
+a2b2c3
+
+There are
+
+6
+
+valid characters.
+
+Since write always points to the next free position, its value at the end is exactly the compressed length.
+
+So returning write gives the answer required by the problem.
+
+------------------------------------------------------------------------------------------------------------
+
+Q1. Explain the problem in your own words.
+We are given an array of characters. We need to compress consecutive repeating characters by replacing them with the character followed by its count if the count is greater than one.
+The compression must be done in-place, and we return the new length of the compressed array.
+--------------------------------------------------------------------------------------------
+
+Q2. What does "in-place" mean?
+"In-place" means we are not allowed to create another array to store the result
+Instead,
+Original Array
+↓
+Modify the same array
+↓
+Return new length
+Example
+Before
+[a,a,a,b,b,c]
+After
+[a,3,b,2,c]
+Notice
+The original array itself is modified.
+------------------------------------
+Q3. Why can't we use only one pointer?
+Because one pointer cannot safely perform both reading and writing.
+Suppose
+a a a a b
+If we start writing while reading,
+we may overwrite characters that haven't been processed yet.
+Using two pointers separates responsibilities.
+Read Pointer
+↓
+Reads original data
+Write Pointer
+↓
+Writes compressed data
+This prevents data loss.
+-----------------------
+
+Q4. Why do we need two pointers?
+Each pointer has a different job.
+Read Pointer
+Reads the original array.
+Counts consecutive characters.
+Never writes.
+Write Pointer
+Writes the compressed result.
+Never decides how many characters are repeated.
+Keeping these responsibilities separate makes the algorithm correct and easier to understand.
+---------------------------------------------------------------------------------------------
+
+Q5. Why is the outer while loop needed?
+while (read < chars.size())
+The outer loop processes one group of identical characters in each iteration.
+Example
+a a b b c c c
+Iterations:
+Iteration 1
+aa
+Iteration 2
+bb
+Iteration 3
+ccc
+Once every group is processed,
+the loop ends.
+------------------------------
+
+Q6. Why is the inner while loop needed?
+while(read < chars.size() &&
+      chars[read] == currentChar)
+The inner loop counts how many times the current character repeats.
+Example
+a a a a b
+The inner loop keeps moving until
+Current character changes
+OR
+End of array is reached.
+Without this loop,
+we would not know the frequency of each character.
+--------------------------------------------------
+
+Q7. Why are there two conditions inside the inner while?
+read < chars.size() &&
+chars[read] == currentChar
+The first condition prevents accessing memory outside the array.
+The second condition checks whether we're still in the same group.
+Both conditions are necessary.
+If we removed the first condition,
+chars[read]
+could access an invalid index when read == chars.size().
+-------------------------------------------------------
+
+Q8. Why do we save
+char currentChar = chars[read];
+before entering the inner loop?
+Because read keeps moving inside the loop.
+If we didn't store the current character,
+we would lose track of which character we were counting.
+Example
+a a a b
+read eventually points to
+b
+If we directly used
+chars[read]
+after the loop,
+we'd mistakenly think the group was b instead of a.
+--------------------------------------------------
+
+Q9. Why do we initialize
+count = 0;
+inside the outer loop?
+Each group needs its own count.
+Example
+aaa bb c
+Counts should be
+3
+2
+1
+If we didn't reset count, it would continue increasing across different groups.
+------------------------------------------------------------------------------
+
+Q10. Why do we write the character before the count?
+chars[write++] = currentChar;
+Compression format requires
+Character
+↓
+Count
+Example
+Correct
+a3
+Wrong
+3a
+Therefore,
+the character must always be written first.
+----------------------------------------------------------------------------
+
+Q11. Why do we check
+if(count > 1)
+Single characters should remain unchanged.
+Example
+a
+Correct
+a
+Wrong
+a1
+Therefore,
+we only write the count if it is greater than one.
+--------------------------------------------------------------------------
+
+Q12. Why convert the count to a string?
+string cnt = to_string(count);
+Because counts can have multiple digits.
+Example
+12
+must be stored as
+'1'
+'2'
+instead of a single integer.
+to_string() makes it easy to process one digit at a time.
+------------------------------------------------------------------------
+
+Q13. How does this loop work?
+for(char c : cnt)
+This is a range-based for loop.
+Suppose
+cnt = "123"
+Iterations
+First
+c='1'
+Second
+c='2'
+Third
+c='3'
+The loop automatically starts from the first character and stops after the last character.
+----------------------------------------------------------------------------------------
+
+Q14. Why use
+write++
+instead of
+++write
+In this case, both work because the increment is not part of a larger expression whose return value is used.
+With
+chars[write++] = currentChar;
+the process is:
+Use the current value of write as the index.
+Store the character.
+Increase write by 1.
+Example:
+write = 2
+↓
+chars[2] = 'a'
+↓
+write becomes 3
+Using chars[++write] would increment first and then write at the next index, skipping the current position.
+----------------------------------------------------------------------------------------------------------
+
+Q15. Why return write?
+write always points to the next empty position.
+Example
+Compressed array
+a2b2c3
+Indexes
+0 1 2 3 4 5
+After writing
+write = 6
+That means
+Six characters were written.
+Returning write gives the compressed length.
+-------------------------------------------
+
+Q16. Why is the time complexity O(n)?
+Every character is processed exactly once by the read pointer.
+The write pointer only moves forward.
+Neither pointer moves backward.
+Therefore,
+O(n)
+-------------------------------------------------------------
+
+Q17. Why isn't the nested while loop O(n²)?
+This is one of the most common interview questions.
+Although there is a while loop inside another while loop,
+the inner loop does not restart from the beginning.
+Example
+a a a b b c
+read moves
+0
+↓
+1
+↓
+2
+↓
+3
+↓
+4
+↓
+5
+↓
+6
+Each character is visited exactly once.
+Total work
+n
+not
+n × n
+This pattern is called the two-pointer technique or an amortized linear scan.
+----------------------------------------------------------------------------
+
+Q18. What is the space complexity?
+Ignoring the small temporary string used to store the count digits, the algorithm modifies the array in place and uses only a few variables.
+Interview answer:
+Space Complexity
+O(1)
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q19. Why doesn't the algorithm overwrite unread characters?
+Because the read pointer always stays ahead of or equal to the write pointer.
+We finish reading an entire group before writing its compressed representation.
+So we never destroy information that still needs to be processed.
+-----------------------------------------------------------------------------
+
+Q20. What data structure is used here?
+No extra data structure like a hash map or stack is used.
+The algorithm relies on:
+Character array (vector<char>)
+Two pointers (read and write)
+A counter (count)
+This makes it space-efficient.
+---------------------------------------------------------
+
+Q21. What technique does this problem teach?
+This problem mainly teaches:
+Two Pointers
+In-place Array Modification
+Grouping Consecutive Elements
+Linear Traversal
+String/Character Manipulation
+-------------------------------------------------------------
+
+Q22. How would you explain your approach to an interviewer?
+"I use two pointers. The read pointer scans the array and identifies one group of consecutive identical characters at a time.
+For each group, I count its frequency. The write pointer writes the compressed output back into the same array.
+I always write the character once, and if the frequency is greater than one, I convert the count into a string and write each digit separately.
+Since each character is read exactly once and written at most once, the algorithm runs in O(n) time and uses O(1) extra space."
+Interviewer's Thinking Process
+When the interviewer asks this question, they are often evaluating whether you can think through the problem systematically:
+1. What is the input?
+↓
+Character array
+↓
+2. What is the output?
+↓
+Compressed array length
+↓
+3. Can I use another array?
+↓
+No (must be in-place)
+↓
+4. Can one pointer handle reading and writing?
+↓
+No
+↓
+5. Use two pointers
+↓
+6. How do I know where a group ends?
+↓
+Keep moving until the character changes
+↓
+7. Count repetitions
+↓
+8. Write character
+↓
+9. If count > 1, write its digits
+↓
+10. Return the number of written characters
+This reasoning process is what interviewers want to hear. It shows that you can derive the solution logically instead of recalling it from memory.
