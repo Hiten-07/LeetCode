@@ -159,10 +159,12 @@
 | ------- |
 | [0075-sort-colors](https://github.com/Hiten-07/LeetCode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Hiten-07/LeetCode/tree/master/0125-valid-palindrome) |
+| [0443-string-compression](https://github.com/Hiten-07/LeetCode/tree/master/0443-string-compression) |
 ## String
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Hiten-07/LeetCode/tree/master/0125-valid-palindrome) |
+| [0443-string-compression](https://github.com/Hiten-07/LeetCode/tree/master/0443-string-compression) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Hiten-07/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1528-shuffle-string](https://github.com/Hiten-07/LeetCode/tree/master/1528-shuffle-string) |
