@@ -1,10 +1,9 @@
 Part 1: How to Understand Any Coding Question
----------------------------------------------
 Whenever an interviewer asks a question, don't jump into coding.
 Follow this framework.
+---------------------------------------------------------------
 
 Step 1: Understand the Problem
-------------------------------
 Ask yourself:
 What is the input?
 What is the output?
@@ -22,7 +21,6 @@ Indexes of two numbers whose sum equals target.
 ----------------------------------------------
 
 Step 2: Restate the Problem
----------------------------
 This is something interviewers love.
 
 Say something like:
@@ -55,7 +53,6 @@ This leads naturally to the complement idea.
 
 Step 4: Find the Inefficiency
 
-
 Ask:
 "Can I avoid checking every pair?"
 Brute force checks every combination.
@@ -78,7 +75,6 @@ Just logic.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Part 2: How to Explain Your Solution to the Interviewer
-------------------------------------------------------
 
 A good explanation follows this order.
 
@@ -119,8 +115,6 @@ Good candidates start with thinking.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Part 3: Common Interview Questions for Two Sum
----------------------------------------------
-
 
 Q1. What is the brute-force approach?
 The brute-force approach is to check every possible pair of numbers.
@@ -133,6 +127,7 @@ O(n²)
 
 Space
 O(1)
+---------------------------------------------------------------------
 
 Q2. Why is brute force inefficient?
 Because we compare every pair.
@@ -142,11 +137,13 @@ n × n
 which results in
 O(n²)
 For large arrays, this becomes slow.
+-----------------------------------
 
 Q3. What optimization can we make?
 Instead of searching the entire array repeatedly,
 store previously visited numbers in a HashMap.
 This allows constant-time lookup.
+-----------------------------------------------
 
 Q4. Why HashMap?
 HashMap provides approximately
@@ -154,6 +151,7 @@ O(1)
 lookup time.
 Instead of searching the array,
 we directly check whether the complement already exists.
+------------------------------------------------------
 
 Q5. What is Complement?
 Complement is the number required to reach the target.
@@ -167,10 +165,12 @@ So instead of asking
 Which two numbers add to 9?
 We ask
 Does 7 already exist?
+------------------------------------------------------
 
 Q6. Why do we calculate the complement?
 Because finding the required number is easier than checking every possible pair.
 We reduce unnecessary comparisons.
+-------------------------------------------------------------------------------
 
 Q7. Why do we store after checking?
 To avoid matching an element with itself.
@@ -180,6 +180,7 @@ Target = 6
 If we store first,
 the first 3 could immediately match itself
 Checking first ensures we only match with previously seen elements.
+------------------------------------------------------------------
 
 Q8. Why use unordered_map instead of map in C++?
 unordered_map
@@ -190,6 +191,7 @@ Lookup
 O(log n)
 Since ordering isn't needed,
 unordered_map is faster.
+------------------------------------------------
 
 Q9. What does the HashMap store?
 It stores
@@ -198,23 +200,27 @@ Example
 7 → 3
 Meaning
 Number 7 is located at index 3.
+-------------------------------
 
 Q10. Why store the index instead of only the value?
 Because the problem asks us to return indices.
 When the complement is found,
 we already know where it occurred.
+-----------------------------------------------------
 
 Q11. Can duplicate values exist?
 Yes.
 Example
 3 3
 The HashMap still works because each element is processed separately, and the current value is added only after checking for its complement.
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 Q12. Why does the algorithm only need one loop?
 Because every number is visited once.
 The complement lookup is constant time.
 Therefore,
 one traversal is enough.
+----------------------------------------------
 
 Q13. Time Complexity?
 Loop
@@ -223,11 +229,13 @@ Lookup
 O(1)
 Overall
 O(n)
+---------------------
 
 Q14. Space Complexity?
 Worst case,
 all elements are stored.
 O(n)
+-----------------------------
 
 Q15. What if no answer exists?
 On LeetCode,
@@ -237,7 +245,6 @@ we could return an empty vector or indicate that no pair was found.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Part 4: How to Explain It to Someone Else
------------------------------------------
 
 Suppose your younger brother asks,
 "What is Two Sum?"
@@ -260,8 +267,11 @@ The missing amount (target - current) is the complement.
 Part 5: A Perfect Interview Answer (2–3 Minutes)
 
 If the interviewer asks, "Explain your approach," you could say:
-"First, I understand that the problem asks me to return the indices of two numbers whose sum equals the target. A straightforward approach is to check every pair using two nested loops, but that takes O(n²) time, which is inefficient for large inputs.
-To optimize this, I use an unordered_map that stores each number along with its index. As I iterate through the array, I calculate the complement by subtracting the current number from the target. If the complement already exists in the map, I've found the required pair and return the stored index along with the current index. If it doesn't exist, I store the current number and its index in the map for future lookups.
+"First, I understand that the problem asks me to return the indices of two numbers whose sum equals the target.
+A straightforward approach is to check every pair using two nested loops, but that takes O(n²) time, which is inefficient for large inputs.
+To optimize this, I use an unordered_map that stores each number along with its index. As I iterate through the array, I calculate the complement by subtracting the current number from the target.
+If the complement already exists in the map, I've found the required pair and return the stored index along with the current index. 
+If it doesn't exist, I store the current number and its index in the map for future lookups.
 This approach requires only one pass through the array, giving an average time complexity of O(n) and a space complexity of O(n)."
 A Simple Mental Checklist for Similar Problem
 
