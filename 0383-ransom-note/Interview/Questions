@@ -1,0 +1,648 @@
+Step 1: Understand the Question
+
+You are given two strings:
+
+ransomNote
+magazine
+
+Example:
+
+ransomNote = "aa"
+magazine = "aab"
+
+Your task:
+
+Can you construct the ransomNote using letters from magazine?
+
+Rules:
+
+Each letter in magazine can be used only once.
+Return:
+true if possible
+false otherwise
+Example 1
+ransomNote = "a"
+magazine = "b"
+
+Need:
+
+a
+
+Magazine has:
+
+b
+
+No a.
+
+Answer:
+
+false
+Example 2
+ransomNote = "aa"
+magazine = "ab"
+
+Need:
+
+a
+a
+
+Magazine:
+
+a
+b
+
+Only one a.
+
+Answer:
+
+false
+Example 3
+ransomNote = "aa"
+magazine = "aab"
+
+Need:
+
+a
+a
+
+Magazine:
+
+a
+a
+b
+
+Enough letters.
+
+Answer:
+
+true
+---------------------------------------------------
+
+Step 2: Think Like a Human
+
+Imagine someone gives you
+
+Magazine
+
+a a b c
+
+and asks
+
+Can you make
+
+a b a
+
+How would you do it?
+
+You'd probably:
+
+Take one a
+
+Remaining:
+
+a b c
+
+Take b
+
+Remaining:
+
+a c
+
+Take another a
+
+Remaining:
+
+c
+
+Done.
+
+Notice:
+
+You are using up letters.
+
+This is the key idea.
+---------------------------------------------------------------
+
+Step 3: Brute Force Thinking
+
+Suppose
+
+ransomNote = "abc"
+
+For every character,
+
+search the magazine.
+
+When found,
+
+remove it.
+
+Repeat.
+
+Problem:
+
+Searching is O(n).
+
+Removing is O(n).
+
+Doing this repeatedly becomes slow.
+------------------------------------------------------------------------
+
+Step 4: Smarter Thinking
+
+Instead of searching every time,
+
+count how many of each character exists.
+
+Example
+
+Magazine
+
+aabcc
+
+Count
+
+a = 2
+
+b = 1
+
+c = 2
+
+Now checking becomes very easy.
+
+Need a?
+
+Decrease
+
+a = 1
+
+Need another a?
+
+a = 0
+
+Need another a?
+
+Oops.
+
+a = -1
+
+Not enough letters.
+
+Return false.
+---------------------------------------------------------------
+
+Step 5: Which Data Structure?
+
+Since the problem says
+
+Only lowercase English letters
+
+There are only
+
+26
+
+possible characters.
+
+Instead of a HashMap,
+
+we can use an integer array.
+
+int freq[26];
+
+Each index represents one letter.
+
+Index
+
+0 -> a
+
+1 -> b
+
+2 -> c
+
+...
+
+25 -> z
+--------------------------------------------------------------------
+
+Now let's understand every line, including how it executes, why it executes, and how the values change.
+
+Line 1
+int freq[26] = {0};
+What happens?
+
+Creates an array of size
+
+26
+
+Initially
+
+Index
+
+0 1 2 3 4 ...
+
+Value
+
+0 0 0 0 0 ...
+
+Every value starts at zero.
+
+Meaning
+
+a : 0
+
+b : 0
+
+c : 0
+
+No letters counted yet.
+
+First Loop
+for(char c : magazine)
+
+This is a range-based for loop.
+
+Suppose
+
+magazine = "aab"
+
+The loop runs like this.
+
+First iteration
+c = 'a'
+Second iteration
+c = 'a'
+Third iteration
+c = 'b'
+
+Then it stops because there are no more characters.
+
+Important Line
+freq[c - 'a']++;
+
+This is the most important line.
+
+Let's understand it carefully.
+
+Suppose
+
+c = 'a'
+
+ASCII values
+
+'a' = 97
+
+So
+
+'a' - 'a'
+
+becomes
+
+97 - 97
+
+= 0
+
+Therefore
+
+freq[0]++
+
+Now
+
+a count becomes
+
+1
+
+Next iteration
+
+c = 'a'
+
+Again
+
+freq[0]++
+
+Now
+
+a = 2
+
+Third iteration
+
+c = 'b'
+
+ASCII
+
+'b' = 98
+
+'a' = 97
+
+Difference
+
+98 - 97
+
+= 1
+
+Now
+
+freq[1]++
+
+Result
+
+a = 2
+
+b = 1
+
+Final frequency array
+
+a : 2
+
+b : 1
+
+c : 0
+
+d : 0
+Second Loop
+for(char c : ransomNote)
+
+Suppose
+
+ransomNote
+
+"aa"
+
+Loop
+
+Iteration 1
+
+c='a'
+
+Iteration 2
+
+c='a'
+Consume Character
+freq[c-'a']--;
+
+Suppose
+
+Current
+
+a = 2
+
+Need one a.
+
+Decrease
+
+a = 1
+
+Need another
+
+Decrease
+
+a = 0
+
+Everything is okay.
+
+Check
+if(freq[c-'a'] < 0)
+
+Why check after decreasing?
+
+Suppose
+
+Magazine
+
+a
+
+Need
+
+aa
+
+Initially
+
+a = 1
+
+Need first a
+
+a = 0
+
+Still okay.
+
+Need second a
+
+a = -1
+
+Now
+
+-1 < 0
+
+True.
+
+Return
+
+false
+
+Negative means
+
+We tried to use more copies of a letter than the magazine contains.
+
+Return True
+return true;
+
+If the loop finishes,
+
+it means
+
+Every required character existed.
+
+So
+
+Return
+
+true
+Complete Dry Run
+
+Input
+
+ransomNote = "aa"
+
+magazine = "aab"
+
+Initially
+
+All counts = 0
+
+Count magazine
+
+Read first a
+
+a=1
+
+Read second a
+
+a=2
+
+Read b
+
+b=1
+
+Current
+
+a=2
+
+b=1
+
+Read ransom
+
+Need first a
+
+a=1
+
+Need second a
+
+a=0
+
+Loop ends.
+
+Return
+
+true
+
+Another Example
+
+ransomNote
+
+aaa
+
+magazine
+
+aa
+
+Count
+
+a=2
+
+Consume
+
+Need first
+
+a=1
+
+Need second
+
+a=0
+
+Need third
+
+a=-1
+
+Negative.
+
+Return
+
+false
+Time Complexity
+
+First loop
+
+O(m)
+
+Second loop
+
+O(n)
+
+Total
+
+O(m+n)
+
+where:
+
+m = length of magazine
+n = length of ransomNote
+Space Complexity
+
+The frequency array always has
+
+26
+
+elements.
+
+It never grows.
+
+Therefore
+
+O(1)
+
+(Constant space)
+------------------------------------------------------------------
+
+Interview Questions & Structured Answers
+
+Q1. Explain the problem in your own words.
+We need to determine whether every character required by the ransom note is available in the magazine.
+Each character in the magazine can only be used once.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2. What is the brute-force solution?
+For each character in the ransom note:
+
+Search the magazine.
+If found, remove or mark that character.
+If not found, return false.
+
+Time Complexity: O(n × m)
+----------------------------------
+
+Q3. Why is brute force inefficient?
+Because we repeatedly search the magazine for every character in the ransom note. 
+This causes many repeated scans, making the solution much slower for larger strings.
+----------------------------------------------------------------------------------
+
+Q4. Why use a frequency array instead of searching?
+A frequency array stores how many times each character appears.
+Instead of searching repeatedly, we can check and update the count in constant time.
+-----------------------------------------------------------------------------------
+
+Q5. Why is the array size 26?
+The problem guarantees that all characters are lowercase English letters (a to z), so we need one position for each of the 26 letters.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Q6. Explain freq[c - 'a'].
+Characters are converted into array indexes.
+
+'a' - 'a' = 0
+'b' - 'a' = 1
+'c' - 'a' = 2
+...
+'z' - 'a' = 25
+
+This allows direct access to each character's count.
+---------------------------------------------------
+
+Q7. Why do we increment the counts first?
+We first record how many letters are available in the magazine.
+Only after knowing the available supply can we start consuming letters for the ransom note.
+-----------------------------------------------------------------------------------------
+
+Q8. Why decrement while reading the ransom note?
+Each character in the ransom note uses one occurrence from the magazine.
+Decrementing simulates consuming that character.
+--------------------------------------------------------------------------
+
+Q9. Why check for freq[c - 'a'] < 0?
+A negative count means we've tried to use a character more times than it exists in the magazine, so constructing the ransom note is impossible.
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Q10. Why is the space complexity O(1)?
+The frequency array always has exactly 26 elements, regardless of the input size. 
+Since its size never changes, the extra space used is constant.
+-----------------------------------------------------------------------------------
+
+Q11. Could we use an unordered_map instead?
+Yes. An unordered_map<char, int> works and is useful if the character set is large or unknown (for example, Unicode).
+However, since this problem only uses lowercase English letters, a fixed-size array is simpler and faster.
+-----------------------------------------------------------------------------------------------------------------------
+
+Interview Explanation (2 Minutes)
+
+"The problem asks whether the ransom note can be constructed using the letters in the magazine, where each letter can only be used once.
+Instead of repeatedly searching the magazine, I count the frequency of each letter using an array of size 26 because only lowercase English letters are allowed.
+Then I iterate through the ransom note and decrement the corresponding count for each character. 
+If any count becomes negative, it means we've used that character more times than it exists in the magazine, so I return false. 
+If I finish processing all characters without any negative count, I return true. This solution runs in O(m + n) time and uses O(1) extra space.`
