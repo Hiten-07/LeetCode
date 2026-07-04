@@ -11,6 +11,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Hiten-07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0289-game-of-life](https://github.com/Hiten-07/LeetCode/tree/master/0289-game-of-life) |
 | [1528-shuffle-string](https://github.com/Hiten-07/LeetCode/tree/master/1528-shuffle-string) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Hiten-07/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Hiten-07/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -28,6 +29,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Hiten-07/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Hiten-07/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Hiten-07/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -54,6 +56,7 @@
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/Hiten-07/LeetCode/tree/master/1704-determine-if-string-halves-are-alike) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Prefix Sum
@@ -174,6 +177,7 @@
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Hiten-07/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1528-shuffle-string](https://github.com/Hiten-07/LeetCode/tree/master/1528-shuffle-string) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/Hiten-07/LeetCode/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Hiten-07/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Hiten-07/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -223,4 +227,8 @@
 |  |
 | ------- |
 | [3620-network-recovery-pathways](https://github.com/Hiten-07/LeetCode/tree/master/3620-network-recovery-pathways) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 <!---LeetCode Topics End-->
