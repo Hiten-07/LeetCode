@@ -9,6 +9,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Hiten-07/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Hiten-07/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Hiten-07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0118-pascals-triangle](https://github.com/Hiten-07/LeetCode/tree/master/0118-pascals-triangle) |
 | [0289-game-of-life](https://github.com/Hiten-07/LeetCode/tree/master/0289-game-of-life) |
 | [1301-number-of-paths-with-max-score](https://github.com/Hiten-07/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
 | [1528-shuffle-string](https://github.com/Hiten-07/LeetCode/tree/master/1528-shuffle-string) |
@@ -192,6 +193,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/Hiten-07/LeetCode/tree/master/0118-pascals-triangle) |
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/Hiten-07/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
