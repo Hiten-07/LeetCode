@@ -10,6 +10,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Hiten-07/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Hiten-07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Hiten-07/LeetCode/tree/master/0118-pascals-triangle) |
+| [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [0289-game-of-life](https://github.com/Hiten-07/LeetCode/tree/master/0289-game-of-life) |
 | [1288-remove-covered-intervals](https://github.com/Hiten-07/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/Hiten-07/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
@@ -157,11 +158,13 @@
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Hiten-07/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Hiten-07/LeetCode/tree/master/0075-sort-colors) |
+| [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [1288-remove-covered-intervals](https://github.com/Hiten-07/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Hiten-07/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -179,6 +182,7 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Hiten-07/LeetCode/tree/master/0125-valid-palindrome) |
+| [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
 | [0443-string-compression](https://github.com/Hiten-07/LeetCode/tree/master/0443-string-compression) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
