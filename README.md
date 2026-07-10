@@ -24,6 +24,7 @@
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Hiten-07/LeetCode/tree/master/3620-network-recovery-pathways) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Hiten-07/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -156,6 +157,7 @@
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Hiten-07/LeetCode/tree/master/3620-network-recovery-pathways) |
 ## Enumeration
 |  |
@@ -166,6 +168,7 @@
 | ------- |
 | [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Hiten-07/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -174,6 +177,7 @@
 | [1288-remove-covered-intervals](https://github.com/Hiten-07/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Hiten-07/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -186,6 +190,7 @@
 | [0443-string-compression](https://github.com/Hiten-07/LeetCode/tree/master/0443-string-compression) |
 | [0925-long-pressed-name](https://github.com/Hiten-07/LeetCode/tree/master/0925-long-pressed-name) |
 | [1768-merge-strings-alternately](https://github.com/Hiten-07/LeetCode/tree/master/1768-merge-strings-alternately) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## String
 |  |
 | ------- |
@@ -221,6 +226,7 @@
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/Hiten-07/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Hiten-07/LeetCode/tree/master/3620-network-recovery-pathways) |
 ## Memoization
 |  |
@@ -252,6 +258,7 @@
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Hiten-07/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Hiten-07/LeetCode/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
 |  |
@@ -266,4 +273,5 @@
 |  |
 | ------- |
 | [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 <!---LeetCode Topics End-->
