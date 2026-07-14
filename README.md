@@ -12,6 +12,7 @@
 | [0118-pascals-triangle](https://github.com/Hiten-07/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hiten-07/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
+| [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [0289-game-of-life](https://github.com/Hiten-07/LeetCode/tree/master/0289-game-of-life) |
 | [1288-remove-covered-intervals](https://github.com/Hiten-07/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/Hiten-07/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
@@ -164,6 +165,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [1291-sequential-digits](https://github.com/Hiten-07/LeetCode/tree/master/1291-sequential-digits) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## Greedy
@@ -219,6 +221,7 @@
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [0415-add-strings](https://github.com/Hiten-07/LeetCode/tree/master/0415-add-strings) |
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
@@ -286,5 +289,6 @@
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 <!---LeetCode Topics End-->
