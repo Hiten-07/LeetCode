@@ -167,6 +167,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [1291-sequential-digits](https://github.com/Hiten-07/LeetCode/tree/master/1291-sequential-digits) |
+| [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## Greedy
 |  |
@@ -224,6 +225,7 @@
 | [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [0415-add-strings](https://github.com/Hiten-07/LeetCode/tree/master/0415-add-strings) |
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
+| [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Hiten-07/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -290,5 +292,6 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
+| [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 <!---LeetCode Topics End-->
