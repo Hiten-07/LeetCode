@@ -37,6 +37,7 @@
 | [0001-two-sum](https://github.com/Hiten-07/LeetCode/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Hiten-07/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Hiten-07/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0202-happy-number](https://github.com/Hiten-07/LeetCode/tree/master/0202-happy-number) |
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
 | [0890-find-and-replace-pattern](https://github.com/Hiten-07/LeetCode/tree/master/0890-find-and-replace-pattern) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Hiten-07/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -197,6 +198,7 @@
 | [0005-longest-palindromic-substring](https://github.com/Hiten-07/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0075-sort-colors](https://github.com/Hiten-07/LeetCode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Hiten-07/LeetCode/tree/master/0125-valid-palindrome) |
+| [0202-happy-number](https://github.com/Hiten-07/LeetCode/tree/master/0202-happy-number) |
 | [0443-string-compression](https://github.com/Hiten-07/LeetCode/tree/master/0443-string-compression) |
 | [0925-long-pressed-name](https://github.com/Hiten-07/LeetCode/tree/master/0925-long-pressed-name) |
 | [1768-merge-strings-alternately](https://github.com/Hiten-07/LeetCode/tree/master/1768-merge-strings-alternately) |
@@ -226,6 +228,7 @@
 ## Math
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/Hiten-07/LeetCode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [0263-ugly-number](https://github.com/Hiten-07/LeetCode/tree/master/0263-ugly-number) |
 | [0415-add-strings](https://github.com/Hiten-07/LeetCode/tree/master/0415-add-strings) |
