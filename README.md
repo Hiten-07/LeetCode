@@ -26,6 +26,7 @@
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Hiten-07/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -46,6 +47,7 @@
 | [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Hiten-07/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Hiten-07/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -73,10 +75,12 @@
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/Hiten-07/LeetCode/tree/master/1704-determine-if-string-halves-are-alike) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Prefix Sum
 |  |
 | ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Hiten-07/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -166,6 +170,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Hiten-07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Hiten-07/LeetCode/tree/master/3620-network-recovery-pathways) |
@@ -241,6 +246,7 @@
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Hiten-07/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Hiten-07/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -312,6 +318,11 @@
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Hiten-07/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Hiten-07/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+## Combinatorics
+|  |
+| ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 <!---LeetCode Topics End-->
