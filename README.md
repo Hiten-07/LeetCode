@@ -51,6 +51,7 @@
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Hiten-07/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3518-smallest-palindromic-rearrangement-ii](https://github.com/Hiten-07/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Hiten-07/LeetCode/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -79,6 +80,7 @@
 | [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/Hiten-07/LeetCode/tree/master/1704-determine-if-string-halves-are-alike) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3518-smallest-palindromic-rearrangement-ii](https://github.com/Hiten-07/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Hiten-07/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Prefix Sum
 |  |
@@ -244,6 +246,7 @@
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Hiten-07/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Hiten-07/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Hiten-07/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+| [3518-smallest-palindromic-rearrangement-ii](https://github.com/Hiten-07/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Math
 |  |
@@ -259,6 +262,7 @@
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Hiten-07/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3518-smallest-palindromic-rearrangement-ii](https://github.com/Hiten-07/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/Hiten-07/LeetCode/tree/master/3536-maximum-product-of-two-digits) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Hiten-07/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -338,6 +342,7 @@
 |  |
 | ------- |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3518-smallest-palindromic-rearrangement-ii](https://github.com/Hiten-07/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Counting Sort
 |  |
 | ------- |
