@@ -193,6 +193,7 @@
 | ------- |
 | [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Hiten-07/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Hiten-07/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Sorting
 |  |
@@ -245,6 +246,7 @@
 | [1768-merge-strings-alternately](https://github.com/Hiten-07/LeetCode/tree/master/1768-merge-strings-alternately) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Hiten-07/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Hiten-07/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Hiten-07/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Hiten-07/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Hiten-07/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -259,6 +261,7 @@
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Hiten-07/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Hiten-07/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
