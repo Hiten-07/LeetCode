@@ -16,6 +16,7 @@
 | [0289-game-of-life](https://github.com/Hiten-07/LeetCode/tree/master/0289-game-of-life) |
 | [0486-predict-the-winner](https://github.com/Hiten-07/LeetCode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Hiten-07/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/Hiten-07/LeetCode/tree/master/0877-stone-game) |
 | [0890-find-and-replace-pattern](https://github.com/Hiten-07/LeetCode/tree/master/0890-find-and-replace-pattern) |
 | [1260-shift-2d-grid](https://github.com/Hiten-07/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/Hiten-07/LeetCode/tree/master/1288-remove-covered-intervals) |
@@ -260,6 +261,7 @@
 | [0415-add-strings](https://github.com/Hiten-07/LeetCode/tree/master/0415-add-strings) |
 | [0486-predict-the-winner](https://github.com/Hiten-07/LeetCode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Hiten-07/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/Hiten-07/LeetCode/tree/master/0877-stone-game) |
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
@@ -279,6 +281,7 @@
 | [0118-pascals-triangle](https://github.com/Hiten-07/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hiten-07/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0486-predict-the-winner](https://github.com/Hiten-07/LeetCode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Hiten-07/LeetCode/tree/master/0877-stone-game) |
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/Hiten-07/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
@@ -361,4 +364,5 @@
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Hiten-07/LeetCode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Hiten-07/LeetCode/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
