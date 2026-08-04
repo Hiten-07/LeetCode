@@ -16,6 +16,7 @@
 | [0289-game-of-life](https://github.com/Hiten-07/LeetCode/tree/master/0289-game-of-life) |
 | [0486-predict-the-winner](https://github.com/Hiten-07/LeetCode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Hiten-07/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0704-binary-search](https://github.com/Hiten-07/LeetCode/tree/master/0704-binary-search) |
 | [0877-stone-game](https://github.com/Hiten-07/LeetCode/tree/master/0877-stone-game) |
 | [0890-find-and-replace-pattern](https://github.com/Hiten-07/LeetCode/tree/master/0890-find-and-replace-pattern) |
 | [1260-shift-2d-grid](https://github.com/Hiten-07/LeetCode/tree/master/1260-shift-2d-grid) |
@@ -178,6 +179,7 @@
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Hiten-07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0704-binary-search](https://github.com/Hiten-07/LeetCode/tree/master/0704-binary-search) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
