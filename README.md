@@ -184,6 +184,7 @@
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Hiten-07/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0069-sqrtx](https://github.com/Hiten-07/LeetCode/tree/master/0069-sqrtx) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Hiten-07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Hiten-07/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Hiten-07/LeetCode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -269,6 +270,7 @@
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/Hiten-07/LeetCode/tree/master/0069-sqrtx) |
 | [0202-happy-number](https://github.com/Hiten-07/LeetCode/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [0263-ugly-number](https://github.com/Hiten-07/LeetCode/tree/master/0263-ugly-number) |
@@ -395,4 +397,8 @@
 | ------- |
 | [0278-first-bad-version](https://github.com/Hiten-07/LeetCode/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/Hiten-07/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Hiten-07/LeetCode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
