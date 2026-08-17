@@ -28,6 +28,7 @@
 | [1406-stone-game-iii](https://github.com/Hiten-07/LeetCode/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Hiten-07/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1528-shuffle-string](https://github.com/Hiten-07/LeetCode/tree/master/1528-shuffle-string) |
+| [1539-kth-missing-positive-number](https://github.com/Hiten-07/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Hiten-07/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Hiten-07/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -196,6 +197,7 @@
 | [0278-first-bad-version](https://github.com/Hiten-07/LeetCode/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/Hiten-07/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 | [0704-binary-search](https://github.com/Hiten-07/LeetCode/tree/master/0704-binary-search) |
+| [1539-kth-missing-positive-number](https://github.com/Hiten-07/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
