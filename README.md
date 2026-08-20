@@ -39,6 +39,7 @@
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Hiten-07/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Hiten-07/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Hiten-07/LeetCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -188,6 +189,7 @@
 | [0289-game-of-life](https://github.com/Hiten-07/LeetCode/tree/master/0289-game-of-life) |
 | [0415-add-strings](https://github.com/Hiten-07/LeetCode/tree/master/0415-add-strings) |
 | [1260-shift-2d-grid](https://github.com/Hiten-07/LeetCode/tree/master/1260-shift-2d-grid) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Hiten-07/LeetCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Hiten-07/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Binary Search Tree
 |  |
