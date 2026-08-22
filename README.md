@@ -40,6 +40,7 @@
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Hiten-07/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Hiten-07/LeetCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Hiten-07/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -205,6 +206,7 @@
 | [1539-kth-missing-positive-number](https://github.com/Hiten-07/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Hiten-07/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Hiten-07/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Hiten-07/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -299,6 +301,7 @@
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Hiten-07/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Hiten-07/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Hiten-07/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -374,6 +377,7 @@
 | ------- |
 | [1386-cinema-seat-allocation](https://github.com/Hiten-07/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/Hiten-07/LeetCode/tree/master/1684-count-the-number-of-consistent-strings) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Hiten-07/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Hiten-07/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Hiten-07/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Number Theory
@@ -382,6 +386,7 @@
 | [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Hiten-07/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Hiten-07/LeetCode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Hiten-07/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -389,6 +394,7 @@
 ## Combinatorics
 |  |
 | ------- |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Hiten-07/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Hiten-07/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Hiten-07/LeetCode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Counting Sort
