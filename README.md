@@ -275,6 +275,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Hiten-07/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/Hiten-07/LeetCode/tree/master/0006-zigzag-conversion) |
+| [0115-distinct-subsequences](https://github.com/Hiten-07/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/Hiten-07/LeetCode/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
@@ -330,6 +331,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Hiten-07/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0115-distinct-subsequences](https://github.com/Hiten-07/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/Hiten-07/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hiten-07/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0486-predict-the-winner](https://github.com/Hiten-07/LeetCode/tree/master/0486-predict-the-winner) |
