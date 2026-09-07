@@ -284,6 +284,7 @@
 | [0482-license-key-formatting](https://github.com/Hiten-07/LeetCode/tree/master/0482-license-key-formatting) |
 | [0890-find-and-replace-pattern](https://github.com/Hiten-07/LeetCode/tree/master/0890-find-and-replace-pattern) |
 | [0925-long-pressed-name](https://github.com/Hiten-07/LeetCode/tree/master/0925-long-pressed-name) |
+| [0940-distinct-subsequences-ii](https://github.com/Hiten-07/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Hiten-07/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1528-shuffle-string](https://github.com/Hiten-07/LeetCode/tree/master/1528-shuffle-string) |
@@ -336,6 +337,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hiten-07/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0486-predict-the-winner](https://github.com/Hiten-07/LeetCode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Hiten-07/LeetCode/tree/master/0877-stone-game) |
+| [0940-distinct-subsequences-ii](https://github.com/Hiten-07/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/Hiten-07/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
