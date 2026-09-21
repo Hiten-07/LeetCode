@@ -332,6 +332,7 @@
 | [0836-rectangle-overlap](https://github.com/Hiten-07/LeetCode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/Hiten-07/LeetCode/tree/master/0877-stone-game) |
 | [1137-n-th-tribonacci-number](https://github.com/Hiten-07/LeetCode/tree/master/1137-n-th-tribonacci-number) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/Hiten-07/LeetCode/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/Hiten-07/LeetCode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Hiten-07/LeetCode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Hiten-07/LeetCode/tree/master/1563-stone-game-v) |
@@ -501,4 +502,5 @@
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/Hiten-07/LeetCode/tree/master/0836-rectangle-overlap) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/Hiten-07/LeetCode/tree/master/1401-circle-and-rectangle-overlapping) |
 <!---LeetCode Topics End-->
