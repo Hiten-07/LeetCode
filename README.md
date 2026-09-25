@@ -77,6 +77,7 @@
 | [0202-happy-number](https://github.com/Hiten-07/LeetCode/tree/master/0202-happy-number) |
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
 | [0890-find-and-replace-pattern](https://github.com/Hiten-07/LeetCode/tree/master/0890-find-and-replace-pattern) |
+| [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Hiten-07/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1386-cinema-seat-allocation](https://github.com/Hiten-07/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Hiten-07/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -181,6 +182,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/Hiten-07/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Hiten-07/LeetCode/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Hiten-07/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Hiten-07/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Hiten-07/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Hiten-07/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
@@ -269,6 +271,7 @@
 | [0075-sort-colors](https://github.com/Hiten-07/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Hiten-07/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/Hiten-07/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Hiten-07/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Hiten-07/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -285,6 +288,7 @@
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/0113-path-sum-ii) |
+| [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -313,6 +317,7 @@
 | [0890-find-and-replace-pattern](https://github.com/Hiten-07/LeetCode/tree/master/0890-find-and-replace-pattern) |
 | [0925-long-pressed-name](https://github.com/Hiten-07/LeetCode/tree/master/0925-long-pressed-name) |
 | [0940-distinct-subsequences-ii](https://github.com/Hiten-07/LeetCode/tree/master/0940-distinct-subsequences-ii) |
+| [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1143-longest-common-subsequence](https://github.com/Hiten-07/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Hiten-07/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Hiten-07/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -516,4 +521,8 @@
 | ------- |
 | [0836-rectangle-overlap](https://github.com/Hiten-07/LeetCode/tree/master/0836-rectangle-overlap) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Hiten-07/LeetCode/tree/master/1401-circle-and-rectangle-overlapping) |
+## Stack
+|  |
+| ------- |
+| [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 <!---LeetCode Topics End-->
