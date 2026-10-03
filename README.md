@@ -312,6 +312,7 @@
 | [0005-longest-palindromic-substring](https://github.com/Hiten-07/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/Hiten-07/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0020-valid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0115-distinct-subsequences](https://github.com/Hiten-07/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/Hiten-07/LeetCode/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
@@ -384,6 +385,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Hiten-07/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0032-longest-valid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0115-distinct-subsequences](https://github.com/Hiten-07/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/Hiten-07/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Hiten-07/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -535,6 +537,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Hiten-07/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -543,6 +546,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Hiten-07/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
