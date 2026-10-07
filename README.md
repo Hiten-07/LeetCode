@@ -185,6 +185,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/Hiten-07/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Hiten-07/LeetCode/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Hiten-07/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0301-remove-invalid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Hiten-07/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Hiten-07/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -294,6 +295,7 @@
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/Hiten-07/LeetCode/tree/master/0113-path-sum-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/Hiten-07/LeetCode/tree/master/1096-brace-expansion-ii) |
 ## Two Pointers
 |  |
@@ -318,6 +320,7 @@
 | [0115-distinct-subsequences](https://github.com/Hiten-07/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/Hiten-07/LeetCode/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/Hiten-07/LeetCode/tree/master/0179-largest-number) |
+| [0301-remove-invalid-parentheses](https://github.com/Hiten-07/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0383-ransom-note](https://github.com/Hiten-07/LeetCode/tree/master/0383-ransom-note) |
 | [0415-add-strings](https://github.com/Hiten-07/LeetCode/tree/master/0415-add-strings) |
 | [0443-string-compression](https://github.com/Hiten-07/LeetCode/tree/master/0443-string-compression) |
