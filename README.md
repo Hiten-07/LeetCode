@@ -43,6 +43,7 @@
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/Hiten-07/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Hiten-07/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/Hiten-07/LeetCode/tree/master/2333-minimum-sum-of-squared-difference) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/Hiten-07/LeetCode/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Hiten-07/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Hiten-07/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Hiten-07/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -259,6 +260,7 @@
 | [0204-count-primes](https://github.com/Hiten-07/LeetCode/tree/master/0204-count-primes) |
 | [1291-sequential-digits](https://github.com/Hiten-07/LeetCode/tree/master/1291-sequential-digits) |
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/Hiten-07/LeetCode/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Hiten-07/LeetCode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Hiten-07/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Greedy
