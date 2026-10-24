@@ -371,6 +371,7 @@
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Hiten-07/LeetCode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/Hiten-07/LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Hiten-07/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2409-count-days-spent-together](https://github.com/Hiten-07/LeetCode/tree/master/2409-count-days-spent-together) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Hiten-07/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Hiten-07/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Hiten-07/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -396,6 +397,7 @@
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Hiten-07/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Hiten-07/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/Hiten-07/LeetCode/tree/master/1872-stone-game-viii) |
+| [2409-count-days-spent-together](https://github.com/Hiten-07/LeetCode/tree/master/2409-count-days-spent-together) |
 | [2427-number-of-common-factors](https://github.com/Hiten-07/LeetCode/tree/master/2427-number-of-common-factors) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Hiten-07/LeetCode/tree/master/2523-closest-prime-numbers-in-range) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Hiten-07/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
